@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CG120422</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="menu">
+        <div class="menu-link">Login</div>
+        <div class="menu-link">Create Account</div>
+        <div class="brand-logo">Poetry Haven, Inc.</div>
+        <div class="search-icon">
+          <input placeholder="Search here..." />
+          <ion-icon name="search-sharp"></ion-icon>
+        </div>
+      </nav>
+      <div class="images">
+        <div class="img left"></div>
+        <div class="img right"></div>
+      </div>
+      <div class="hero-image">
+        <div class="wrapper-img">
+          <div class="box"></div>
+          <img src="images/img-two.png" class="image" style="border-radius: 20px; object-fit: cover;" />
+        </div>
+      </div>
+      <div class="header"><p class="title">poesy</p></div>
+      <div class="hero-container">
+        <div class="sidebar-logo">
+          <img src="./images/logo.jpeg" class="logo">
+        </div>
+        <div class="projects">
+          <svg viewBox="45 60 400 320" xmlns="http://www.w3.org/2000/svg">
+            <path
+              fill="#fff"
+              d="M 90 210 C 90 180 90 150 90 150 C 150 150 180 150 180 150 C 180 150 300 150 300 150 C 300 150 330 150 390 150 C 390 150 390 180 390 210 C 390 240 390 270 390 270 C 330 270 300 270 300 270 C 300 270 180 270 180 270 C 180 270 150 270 90 270 C 90 270 90 240 90 210"
+              mask="url(#knockout-text)"
+            ></path>
+            <mask id="knockout-text">
+              <rect width="100%" height="100%" fill="#fff" x="0" y="0" />
+              <text x="147" y="227" fill="#000">Subscr.</text>
+            </mask>
+          </svg>
+        </div>
+        <div class="img-nav">
+          <div class="prev">prev</div>
+          <div class="next">next</div>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
